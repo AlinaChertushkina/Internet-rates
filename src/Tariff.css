@@ -1,0 +1,37 @@
+.title-name {
+  display: flex;
+  justify-content: center;
+}
+
+.tariff-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tariff-card {
+  border: 2px solid #bfbebe;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.tariff-card h3 {
+  font-size: 22px;
+  color: #faf9f9;
+}
+
+.tariff-card p {
+  font-size: 18px;
+  color: #faf9f9;
+}
+
+span {
+  font-size: 14px;
+  color: #8e8a8a;
+}
+
+.highlighted {
+  transform: scale(1.1);
+}
